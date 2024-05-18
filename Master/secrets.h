@@ -1,5 +1,5 @@
-#define WIFI_SSID "Eolo"
-#define WIFI_PASSWORD "Bi2mKJC4e"
+#define WIFI_SSID "" // Inserire il nome della rete WiFi tra le virgolette
+#define WIFI_PASSWORD "" // Inserire la password della rete WiFi tra le virgolette
 
 #define MQTT_BROKER_IP "192.168.68.109"
 #define MQTT_BROKER_PORT 1883
