@@ -1,6 +1,6 @@
 wifi: dict[str, str] = {
-    "ssid": "Eolo",
-    "password": "Bi2mKJC4e"
+    "ssid": "",# Inserire il nome della rete WiFi tra le virgolette
+    "password": ""# Inserire la password della rete WiFi tra le virgolette
 }
 
 mqtt: dict[str, str] = {
