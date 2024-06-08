@@ -15,7 +15,8 @@ Come fare:
 11) Caricate i file DetectLables.py e FaceAuth.py su due lambda function distinte;
 12) Configurate due REST API utilizzando Amazon API Gateway e create un metodo POST per la prima funzione e un metodo GET per l'altra.
 13) Impostate le due API come trigger per le relative funzioni
-14) Create un bucket S3 in cui salvare le immagini degli utenti autorizzati
-15) Create una tabella DynamoDB per salvare i risultati delle operazioni di labels detecting
+14) Create un bucket S3 e caricate le immagini degli utenti autorizzati
+15) Create due tabelle DynamoDB, una per salvare i risultati delle operazioni di labels detecting e l'altra, da popolare manualmente, per salvare gli UUID associati alle immagini degli utenti
+16) Installate la CLI di AWS e usato il comando "aws rekognition create-collection --collection-id MyFaceCollection" sostituendo MyFaceCollection con il nome che volete 
 12) Se avete dubbi consultate la Wiki;  
 13) Divertitevi.  
