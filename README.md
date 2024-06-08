@@ -13,10 +13,10 @@ Come fare:
 9) Eseguite il comando python3 mqtt_client.py;  
 10) Scaricate la cartella aws;  
 11) Caricate i file DetectLables.py e FaceAuth.py su due lambda function distinte;
-12) Configurate due REST API utilizzando Amazon API Gateway e create un metodo POST per la prima funzione e un metodo GET per l'altra.
-13) Impostate le due API come trigger per le relative funzioni
-14) Create un bucket S3 e caricate le immagini degli utenti autorizzati
-15) Create due tabelle DynamoDB, una per salvare i risultati delle operazioni di labels detecting e l'altra, da popolare manualmente, per salvare gli UUID associati alle immagini degli utenti
-16) Installate la CLI di AWS e usato il comando "aws rekognition create-collection --collection-id MyFaceCollection" sostituendo MyFaceCollection con il nome che volete 
+12) Configurate due REST API utilizzando Amazon API Gateway e create un metodo POST per la prima funzione e un metodo GET per l'altra;
+13) Impostate le due API come trigger per le relative funzioni;
+14) Create due bucket S3: uno per caricare manualmente le immagini degli utenti autorizzati e un altro per le immagini scattate contenenti persone;
+15) Create due tabelle DynamoDB: una per salvare i risultati delle operazioni di rilevamento etichette e un'altra, da popolare manualmente, per memorizzare gli UUID associati alle immagini degli utenti;
+16) Installate la CLI di AWS e usato il comando "aws rekognition create-collection --collection-id MyFaceCollection" sostituendo MyFaceCollection con il nome che volete;
 12) Se avete dubbi consultate la Wiki;  
 13) Divertitevi.  
